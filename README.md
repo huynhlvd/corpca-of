@@ -27,15 +27,42 @@ Outputs:
 - <img src="https://latex.codecogs.com/svg.latex?\dpi{150}&space;\boldsymbol{Z}_{t}:=\{\boldsymbol{z}_{j}=\boldsymbol{x}_{t-J&plus;j}\}" title="\boldsymbol{Z}_{t}:=\{\boldsymbol{z}_{j}=\boldsymbol{x}_{t-J+j}\}" />: The updated foreground prior
 - <img src="https://latex.codecogs.com/svg.latex?\dpi{150}&space;\boldsymbol{B}_{t}\in&space;\mathbb{R}^{n\times&space;d}" title="\boldsymbol{B}_{t}\in \mathbb{R}^{n\times d}" />: The updated background prior
 
-**_Source code files:_** 
-- [corpca.m](https://github.com/huynhlvd/corpca/blob/master/corpca.m): The function for CORPCA-OF
-- [usageDemo_corpca.m](https://github.com/huynhlvd/corpca/blob/master/usageDemo_corpca.m): One demo to run CORPCA-OF
-- [dataGeneration.m](https://github.com/huynhlvd/corpca/blob/master/dataGeneration.m): Generating data for numerical simulations
-- [inexact_alm_rpca](https://github.com/huynhlvd/corpca/blob/master/inexact_alm_rpca): This folder contains an offline RPCA (batch-based) code for initializing background and foreground prior information
+How to run:
 
-**_Experimental results:_** 
-- [videos](https://github.com/huynhlvd/corpca/tree/master/videos): This folder consists of original test videos and separated sequences 
-    - Please see file [videos/videoList.md](https://github.com/huynhlvd/corpca/blob/master/videos/videoList.md) for more details
-- [fullRateComparisons_BootstrapCurtain.pptx](https://github.com/huynhlvd/corpca/blob/master/fullRateComparisons_BootstrapCurtain.pptx?raw=true): a presentation of video separation comparisons (Bootstrap and Curtain) for CORPCA vs. RPCA, GRASTA, and ReProCS with full data access
-- [compressiveRatesCORPCAvsReProCS_Bootstrap.pptx](https://github.com/huynhlvd/corpca/blob/master/compressiveRatesCORPCAvsReProCS_Bootstrap.pptx?raw=true): a presentation of video separation comparisons (Bootstrap) for CORPCA vs. ReProCS with different measurement rates _m/n_
-- [compressiveRatesCORPCAvsReProCS_Curtain.pptx](https://github.com/huynhlvd/corpca/blob/master/compressiveRatesCORPCAvsReProCS_Curtain.pptx?raw=true): a presentation of video separation comparisons (Curtain) for CORPCA vs. ReProCS with different measurement rates _m/n_
+1. Open CMake GUI
+2. Drag and drop CmakeLists.txt from the "CORPCA-OF" folder into CMake
+3. Select output path, type in "build" after the path
+4. Select configure, choose your compiler (VS 2017/2015 etc.)
+5. After no errors are present, click generate
+6. If you go to the CORPCA-OF folder, you will see a build folder created, open it
+7. Open the visual studio project that is created
+8. Build the solution
+9. Select the project demoCORPCA-OF and set it as start up project
+10. Now select "Run"
+11. Enter path to the video files (ex D:\TRACK)
+12. Enter path where output has to be saved (ex D:\outDataOF)
+13. Enter sequence name (Bootstrap, Curtain etc.)
+14. Enter the format name (bmp, png etc.)
+14. Enter scaling factor (1.0, 0.5, 0.25)
+15. Enter rate (1.0, 0.8, 0.6, 0.4, 0.2)
+16. Check the output folder that was specified to see the seperated images
+
+NOTE: 
+* Inside the output folder, please create folders with names of video sequences. i.e. for every sequence in TRACK, create a new empty folder inside the output path folder (D:\outDataOF)
+* Create a folder named prior inside video sequence folder (ex in TRACK)
+* For every sequence in TRACK, create a new folder inside the prior folder
+Here is a sample folder structure:
+
+- TRACK
+    * Bootstrap 
+    * Curtain 
+    * ...
+    * prior 
+      + Bootstrap (to be created)
+      + Curtain (to be created)
+      + ...
+- outDataOF
+    * Bootstrap (to be created)
+    * Curtain (to be created)
+    * ...
+
