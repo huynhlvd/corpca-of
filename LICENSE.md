@@ -1,4 +1,4 @@
-# corpca-of
+# CORPCA-OF
 
 Compressive Online Robust Principal Component Analysis with Optical Flow (CORPCA-OF). <br />
 Copyright (c) 2018, Srivatsa Prativadibhayankaram and Huynh Van Luong, version 01, May 1, 2018.<br />
