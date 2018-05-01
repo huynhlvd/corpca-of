@@ -25,4 +25,4 @@ All rights reserved.
 Please cite this publication
 
 `Srivatsa Prativadibhayankaram, Huynh Van Luong, Thanh Ha Le, and André Kaup, "`
-["Compressive Online Robust Principal Component Analysis with Optical Flow for Video Foreground-Background Separation. Proceedings of the Eighth International Symposium on Information and Communication Technology. ACM, 2017, pp.385–392.
+[Compressive Online Robust Principal Component Analysis with Optical Flow for Video Foreground-Background Separation](https://doi.org/10.1145/3155133.3155184)'," Proceedings of the Eighth International Symposium on Information and Communication Technology. ACM, 2017, pp.385–392.
