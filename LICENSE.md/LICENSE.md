@@ -1,6 +1,6 @@
 # corpca-of
 
-Compressive Online Video Background-Foreground Separation Using Multiple Prior Information and Optical Flow (CORPCA-OF). <br />
+Compressive Online Robust Principal Component Analysis with Optical Flow (CORPCA-OF). <br />
 Copyright (c) 2018, Srivatsa Prativadibhayankaram and Huynh Van Luong, version 01, May 1, 2018.<br />
 Multimedia Communications and Signal Processing, University of Erlangen-Nuremberg.<br />
 All rights reserved.
