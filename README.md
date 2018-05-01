@@ -2,7 +2,7 @@
 **Compressive Online Robust Principal Component Analysis with Optical Flow (CORPCA-OF)**
 
     Version 1.1,  May 1, 2018
-    Implementations by Srivatsa Prativadibhayankaram and Huynh Van Luong, 
+    Implementations by Srivatsa Prativadibhayankaram (developer) and Huynh Van Luong (adviser), 
     Email: srivatsa.pv@live.com and huynh.luong@fau.de,
     Multimedia Communications and Signal Processing, University of Erlangen-Nuremberg.  
   
