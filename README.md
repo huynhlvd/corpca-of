@@ -11,8 +11,9 @@
 Please cite this publication: 
 
 `Srivatsa Prativadibhayankaram, Huynh Van Luong, Thanh Ha Le, and André Kaup, "`
-[Compressive Online Robust Principal Component Analysis with Optical Flow for Video Foreground-Background Separation](https://doi.org/10.1145/3155133.3155184)'," Proceedings of the Eighth International Symposium on Information and Communication Technology. ACM, 2017, pp.385–392.             
-**_Solving the problem_**
+[Compressive Online Robust Principal Component Analysis with Optical Flow for Video Foreground-Background Separation](https://doi.org/10.1145/3155133.3155184)'," Proceedings of the Eighth International Symposium on Information and Communication Technology. ACM, 2017, pp.385–392.     
+
+**_Solving the problem and Updating priors using Optical Flow_**
 
 <img src="https://latex.codecogs.com/svg.latex?\small&space;\min_{\boldsymbol{x}_{t},\boldsymbol{v}_{t}}\Big\{H(\boldsymbol{x}_{t},\boldsymbol{v}_{t})=\frac{1}{2}\|\mathbf{\Phi}(\boldsymbol{x}_{t}&plus;\boldsymbol{v}_{t})-\boldsymbol{y}_{t}\|^{2}_{2}&space;&plus;\lambda\mu\sum\limits_{j=0}^{J}\beta_{j}\|\mathbf{W}_{j}(\boldsymbol{x}_{t}-\boldsymbol{z}_{j})\|_{1}&plus;&space;\mu\Big\|[\boldsymbol{B}_{t-1}\boldsymbol{v}_{t}]\Big\|_{*}\Big\}" title="\small \min_{\boldsymbol{x}_{t},\boldsymbol{v}_{t}}\Big\{H(\boldsymbol{x}_{t},\boldsymbol{v}_{t})=\frac{1}{2}\|\mathbf{\Phi}(\boldsymbol{x}_{t}+\boldsymbol{v}_{t})-\boldsymbol{y}_{t}\|^{2}_{2} +\lambda\mu\sum\limits_{j=0}^{J}\beta_{j}\|\mathbf{W}_{j}(\boldsymbol{x}_{t}-\boldsymbol{z}_{j})\|_{1}+ \mu\Big\|[\boldsymbol{B}_{t-1}\boldsymbol{v}_{t}]\Big\|_{*}\Big\}" />
 
