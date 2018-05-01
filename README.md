@@ -2,7 +2,8 @@
 **Compressive Online Robust Principal Component Analysis with Optical Flow (CORPCA-OF)**
 
     Version 1.1,  May 1, 2018
-    Implementations by Srivatsa Prativadibhayankaram and Huynh Van Luong, Email: srivatsa.pv@live.com and huynh.luong@fau.de,
+    Implementations by Srivatsa Prativadibhayankaram and Huynh Van Luong, 
+    Email: srivatsa.pv@live.com and huynh.luong@fau.de,
     Multimedia Communications and Signal Processing, University of Erlangen-Nuremberg.  
   
   `Please see` [LICENSE](https://github.com/huynhlvd/corpca-of/blob/master/LICENSE.md) `for the full text of the license.`
@@ -27,8 +28,8 @@ Outputs:
 - <img src="https://latex.codecogs.com/svg.latex?\dpi{150}&space;\boldsymbol{B}_{t}\in&space;\mathbb{R}^{n\times&space;d}" title="\boldsymbol{B}_{t}\in \mathbb{R}^{n\times d}" />: The updated background prior
 
 **_Source code files:_** 
-- [corpca.m](https://github.com/huynhlvd/corpca/blob/master/corpca.m): The function for CORPCA
-- [usageDemo_corpca.m](https://github.com/huynhlvd/corpca/blob/master/usageDemo_corpca.m): One demo to run CORPCA
+- [corpca.m](https://github.com/huynhlvd/corpca/blob/master/corpca.m): The function for CORPCA-OF
+- [usageDemo_corpca.m](https://github.com/huynhlvd/corpca/blob/master/usageDemo_corpca.m): One demo to run CORPCA-OF
 - [dataGeneration.m](https://github.com/huynhlvd/corpca/blob/master/dataGeneration.m): Generating data for numerical simulations
 - [inexact_alm_rpca](https://github.com/huynhlvd/corpca/blob/master/inexact_alm_rpca): This folder contains an offline RPCA (batch-based) code for initializing background and foreground prior information
 
