@@ -40,7 +40,7 @@ Outputs:
 8. Build the solution
 9. Select the project demoCORPCA-OF and set it as start up project
 10. Now select "Run"
-11. Enter path to the video files (ex D:\TRACK)
+11. Enter path to the video files (ex D:\inData)
 12. Enter path where output has to be saved (ex D:\outDataOF)
 13. Enter sequence name (Bootstrap, Curtain etc.)
 14. Enter the format name (bmp, png etc.)
@@ -49,12 +49,12 @@ Outputs:
 16. Check the output folder that was specified to see the seperated images
 
 NOTE: 
-* Inside the output folder, please create folders with names of video sequences, i.e., for every sequence in Data, create a new empty folder inside the output path folder (D:\outDataOF)
-* Create a folder named prior inside video sequence folder (ex in Data)
-* For every sequence in TRACK, create a new folder inside the prior folder
+* Inside the output folder, please create folders with names of video sequences, i.e., for every sequence in inData, create a new empty folder inside the output path folder (D:\outDataOF)
+* Create a folder named prior inside video sequence folder (ex in inData)
+* For every sequence in inData, create a new folder inside the prior folder
 Here is a sample folder structure:
 
-- Data
+- inData
     * Bootstrap 
     * Curtain 
     * ...
