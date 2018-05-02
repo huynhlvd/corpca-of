@@ -49,12 +49,12 @@ Outputs:
 16. Check the output folder that was specified to see the seperated images
 
 NOTE: 
-* Inside the output folder, please create folders with names of video sequences. i.e. for every sequence in TRACK, create a new empty folder inside the output path folder (D:\outDataOF)
-* Create a folder named prior inside video sequence folder (ex in TRACK)
+* Inside the output folder, please create folders with names of video sequences, i.e., for every sequence in Data, create a new empty folder inside the output path folder (D:\outDataOF)
+* Create a folder named prior inside video sequence folder (ex in Data)
 * For every sequence in TRACK, create a new folder inside the prior folder
 Here is a sample folder structure:
 
-- TRACK
+- Data
     * Bootstrap 
     * Curtain 
     * ...
