@@ -54,7 +54,7 @@ NOTE:
 * For every sequence in inData, create a new folder inside the prior folder
 Here is a sample folder structure:
 
-- inData
+- inData ('some samples'[https://github.com/huynhlvd/corpca/blob/master/videos/videoList.md])
     * Bootstrap 
     * Curtain 
     * ...
@@ -62,7 +62,8 @@ Here is a sample folder structure:
       + Bootstrap (to be created)
       + Curtain (to be created)
       + ...
-- outDataOF
+      
+- outDataOF ('some samples'[https://github.com/huynhlvd/corpca/blob/master/videos/videoList.md])
     * Bootstrap (to be created)
     * Curtain (to be created)
     * ...
