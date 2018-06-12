@@ -23,7 +23,7 @@ find_package( CUDA QUIET COMPONENTS)
 add_library( corpcaOF SHARED src/corpcaOF.cpp src/VideoSource.cpp src/VideoSourceManager.cpp src/corpcaOFUtils.cpp src/priorInitialization.cpp src/inexact_alm_rpca.cpp src/ramsia.cpp)
 add_executable( dempCORPCA-OF src/demoCorpcaOF.cpp  )
 target_link_libraries( corpcaOF ${OpenCV_LIBS} ${CUDA_LIBS} )
-target_link_libraries (dempCORPCA-OF LINK_PUBLIC corpcaOF)
+target_link_libraries (demoCORPCA-OF LINK_PUBLIC corpcaOF)
 #install(TARGETS test_CMake DESTINATION bin)
 #add_library(${OpenCV_LIBS}/bin)
 
